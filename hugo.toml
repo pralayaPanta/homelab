@@ -1,0 +1,8 @@
+theme = 'hextra'
+baseURL = 'https://homelab.journalctl.io/'
+title = 'Homelab'
+
+[[menu.main]]
+  name = "journalctl"
+  pageRef = "journalctl.io"
+  weight = 1
