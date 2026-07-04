@@ -2,7 +2,10 @@ theme = 'hextra'
 baseURL = 'https://homelab.journalctl.io/'
 title = 'Homelab'
 
-[[menu.main]]
-  name = "journalctl"
-  pageRef = "journalctl.io"
-  weight = 1
+[menu]
+
+  [[menu.main]]
+    name = "journalctl"
+    post = ""
+    pre = "<i class = 'fa fa-heart'></i>"
+    url = "https://www.journalctl.io"
