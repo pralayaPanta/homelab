@@ -9,3 +9,14 @@ title = 'Homelab'
     post = ""
     pre = "<i class = 'fa fa-heart'></i>"
     url = "https://www.journalctl.io"
+
+
+[params.comments]
+  enable = true
+  type = "giscus"
+
+[params.comments.giscus]
+  repo = "pralayaPanta/homelab"
+  repoId = "R_kgDOR4wlkg"
+  category = "General"
+  categoryId = "DIC_kwDOR4wlks4DAhTl"
