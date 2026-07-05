@@ -5,11 +5,17 @@ title = 'Homelab'
 [menu]
 
   [[menu.main]]
+    name = "search"
+    weight = 1000
+    [menu.main.params]
+      type = "search"
+
+  [[menu.main]]
     name = "journalctl"
+    weight =900
     post = ""
     pre = "<i class = 'fa fa-heart'></i>"
     url = "https://www.journalctl.io"
-
 
 [params.comments]
   enable = true
@@ -20,3 +26,7 @@ title = 'Homelab'
   repoId = "R_kgDOR4wlkg"
   category = "General"
   categoryId = "DIC_kwDOR4wlks4DAhTl"
+
+[params.search]
+  enable = true
+  type = "flexsearch"
