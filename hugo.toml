@@ -1,6 +1,7 @@
 theme = 'hextra'
 baseURL = 'https://homelab.journalctl.io/'
 title = 'Homelab'
+enableGitInfo = true  # Populates last-modified dates from git history (requires fetch-depth: 0 in CI)
 
 [menu]
 

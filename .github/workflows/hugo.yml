@@ -16,9 +16,10 @@ jobs:
       - uses: actions/checkout@v5
         with:
           submodules: recursive
+          fetch-depth: 0    # Required for enableGitInfo — full history needed for last-modified dates
       - uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.163.3'  # Pinned — prevents silent breaking changes on new Hugo releases
           extended: true
       - run: hugo --minify
       - uses: actions/upload-pages-artifact@v4
